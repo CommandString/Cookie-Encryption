@@ -1,0 +1,22 @@
+{
+    "name": "cmdstr/cookie-encryption",
+    "description": "An addon to cmdstr/cookie to encrypt cookies with cmdstr/encrypt",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert Snedeker"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "cmdstr\\cookieEncryption\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "cmdstr/cookies": "*",
+        "cmdstr/encrypt": "*"
+    }
+}
