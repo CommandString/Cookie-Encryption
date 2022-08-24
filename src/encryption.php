@@ -23,5 +23,3 @@ class encryption implements cookieEncryptionInterface {
         return $this->encryptor->decrypt($data);
     }
 }
-
-?>
