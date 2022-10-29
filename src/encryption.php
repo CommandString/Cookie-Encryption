@@ -1,16 +1,16 @@
 <?php
 
-namespace cmdstr\cookieEncryption;
+namespace CommandString\CookieEncryption;
 
-use cmdstr\cookies\cookieEncryptionInterface;
-use cmdstr\encrypt\encryption as encryptor;
+use CommandString\Cookies\CookieEncryptionInterface;
+use CommandString\Encrypt\Encryption as Encryptor;
 
-class encryption implements cookieEncryptionInterface {
-    private encryptor $encryptor;
+class Encryption implements CookieEncryptionInterface {
+    private Encryptor $encryptor;
 
     public function __construct(string $passphrase, string $encryptionMethod)
     {
-        $this->encryptor = new encryptor($passphrase, $encryptionMethod);
+        $this->encryptor = new Encryptor($passphrase, $encryptionMethod);
     }
 
     public function encrypt(string|int $data):string

@@ -1,4 +1,4 @@
-﻿# [cmdstr/cookie-encryption](https://packagist.org/packages/cmdstr/cookie-encryption) #
-### An addon to [cmdstr/cookies](https://packagist.org/packages/cmdstr/cookies) to encrypt cookies using [cmdstr/encrypt](https://packagist.org/packages/cmdstr/encrypt) with [cmdstr/cookies](https://packagist.org/packages/cmdstr/cookies) ###
+﻿# [commandstring/cookie-encryption](https://packagist.org/packages/commandstring/cookie-encryption) #
+### An addon to [commandstring/cookies](https://packagist.org/packages/commandstring/cookies) to encrypt cookies using [commandstring/encrypt](https://packagist.org/packages/commandstring/encrypt) with [commandstring/cookies](https://packagist.org/packages/commandstring/cookies) ###
 
-# [README](https://github.com/CommandString/cmdstr-cookies) #
+# [README](https://github.com/commandstring/cookies) #
